@@ -17,13 +17,13 @@ repositories {
 }
 
 dependencies {
-    compile('org.apache.dubbo:dubbo:3.0.0') {
+    compile('org.apache.dubbo:dubbo:2.7.15') {
         exclude group: 'org.springframework'
     }
     compile('com.google.code.gson:gson:2.8.9')
     compile('org.javassist:javassist:3.20.0-GA')
     compile 'org.apache.commons:commons-lang3:3.11'
-    compile 'org.apache.dubbo:dubbo-dependencies-zookeeper:3.0.0'
+    compile 'org.apache.dubbo:dubbo-dependencies-zookeeper:2.7.15'
 
 }
 
